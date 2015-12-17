@@ -1,0 +1,40 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^6.2.0",
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^5.4.1",
+    "mongodb": "^2.1.0",
+    "mongoose": "^4.2.10",
+    "morgan": "^1.6.1",
+    "radium": "^0.15.3",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-middleware": "^1.4.0",
+    "webpack-hot-middleware": "^2.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "chai": "^3.4.1",
+    "history": "^1.13.1",
+    "mocha": "^2.3.4",
+    "react-hot-loader": "^1.3.0",
+    "supertest": "^1.1.0"
+  }
+}
