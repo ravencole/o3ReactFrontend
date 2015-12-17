@@ -17,6 +17,7 @@
   "scripts": {
     "test": "better-npm-run test",
     "test:cov": "better-npm-run test:cov",
+    "server": "node API/server/server",
     "start": "node devServer",
     "build:start": "better-npm-run build:start",
     "build": "rimraf dist && better-npm-run build",
